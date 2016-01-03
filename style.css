@@ -1,0 +1,48 @@
+/*
+Theme Name: Magazino Hjartslaget
+Template: magazino
+Author: Daniel
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Fonts
+________________________________________________________________________
+*/
+@import url(http://fonts.googleapis.com/css?family=Judson:400,700);
+@import url(http://openfontlibrary.org/face/freeuniversal);
+
+body {
+		font-family: "freeuniversalregular";
+}
+
+#sidebar .widget-title {
+    font-family: "Fjalla One", "Arial Narrow", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #e58e19;
+    margin-bottom: 0.75em;
+}
+
+nav[role=navigation] .menu
+ul li.current-menu-item a, .nav ul li.current_page_item a, nav[role=navigation] .menu ul li.current_page_item a {
+    color: #e58e19;
+}
+
+a, a:visited {
+    color: #e58e19;
+}
+
+nav[role=navigation] .menu 
+ul li a, nav[role=navigation] .menu #menu-icon {
+	color: #e58e19;
+}
+
+.go-button a, .go-button a:visited {
+    position: absolute;
+    background-color: #e58e19;
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.2;
+}
